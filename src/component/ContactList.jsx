@@ -21,7 +21,7 @@ const ContactList = () => {
     return (
         <div>
             <SearchBox />
-            Contact Cnt : {filterList.length}
+            Contact Info Count : {filterList.length}
             <div className='contact-list'>
                 {filterList.map((item, index) => (
                     <ContactItem item={item} key={index} />
